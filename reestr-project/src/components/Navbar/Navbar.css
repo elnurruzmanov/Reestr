@@ -1,0 +1,30 @@
+.Navbar {
+    width: 80px;
+    padding: 20px 115px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav_logo {
+    display: flex;
+    align-items: center;
+}
+
+.Form {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    background-color: #F9F9FB;
+    border-radius: 5px;
+    padding: 13px 30px;
+}
+
+.Input {
+    margin-left: 10px;
+    border:none;
+    outline: none;
+    background-color: #F9F9FB;
+    color: #C6C6C6;
+}
