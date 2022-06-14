@@ -1,0 +1,30 @@
+.Answers_info h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231F20;
+}
+
+.Answers  .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Answers_questions-info{
+    display: flex;
+    align-items: center;
+}
+
+.Answer_questions-title{
+    margin-left:10px;
+}
+
+.Answers_info{
+    width:45%;
+}
+
+.Answers_questions{
+    width: 55%;
+}

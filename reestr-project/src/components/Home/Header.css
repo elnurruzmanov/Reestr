@@ -1,0 +1,86 @@
+.Header .container {
+    padding: 20px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.Header {
+    background: #E5E5E5;
+}
+
+.Header_info {
+    width: 43%;
+    height: 540px;
+}
+
+
+.Header_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #231F20;
+    text-align: left
+}
+
+.Header_text {
+    margin-top: 30px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #676A71;
+    text-align: left;
+}
+
+.database {
+    margin-top: 20px;
+}
+
+.header_span {
+    color: #009CB4;
+}
+
+.Header_form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+    /* gap: 10px; */
+    background-color: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.Header_input {
+    border: none;
+    outline: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C6C6C6;
+    margin-left: 13px;
+}
+
+.Header_btn {
+    margin-left: 240px;
+    background: #009CB4;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+

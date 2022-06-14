@@ -1,0 +1,147 @@
+.Register .container {
+  padding: 80px 115px;
+}
+
+.Registers_titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Filter_icon {
+  margin-right: 30px;
+}
+
+.Registers_filter {
+  display: flex;
+  align-items: center;
+}
+
+.Register_info {
+  margin-top: 30px;
+}
+
+.Register-number {
+  display: flex;
+  align-items: center;
+}
+
+.register_title {
+  display: flex;
+  align-items: center;
+}
+
+.register_text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #009cb4;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.number {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4d4d4f;
+}
+
+.Register_number {
+  transform: rotate(-90deg);
+}
+
+.Register_list {
+  width: 16%;
+}
+
+.register_item {
+  height: 80px;
+}
+
+.Register_lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list2 {
+  width: 23%;
+}
+
+.list3 {
+  width: 7%;
+}
+
+.list4 {
+  width: 25%;
+}
+
+.list5 {
+  width: 12%;
+}
+
+.list6 {
+  width: 8%;
+}
+
+.register_links {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #009cb4;
+  cursor: pointer;
+}
+
+.hr {
+  width: 100%;
+  height: 0.1px;
+  background-color: #c6c6c6;
+  /* margin-top:30px; */
+}
+
+ul {
+  list-style: none;
+}
+
+.register_footer_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 0.1px solid  #C6C6C6; */
+}
+
+
+
+.register_footer_item {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.number_footer {
+  padding: 10px 10px;
+  border-radius: 2px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  transition: 0.4s;
+}
+
+.number_footer:hover {
+  background: #009cb4;
+  cursor: pointer;
+  color: #ffffff;
+}
+

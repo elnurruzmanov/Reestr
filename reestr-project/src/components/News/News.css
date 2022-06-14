@@ -1,0 +1,93 @@
+.News_info .container{
+    padding: 20px;
+}
+
+.News_title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231f20;
+}
+
+.News_list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.news_item {
+    width: 380px;
+    height: 370px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items:center; */
+    flex-direction: column;
+    text-align: left;
+}
+
+/* .works_image{
+    width: 370px;
+    height: 220px;
+} */
+
+.works_time-text {
+    margin: 0;
+}
+
+.works_time-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #231F20;
+}
+
+.works_calendar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.works_calendar a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A8AAAE;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.works_text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676A71;
+}
+
+.work_btn {
+    background: #009CB4;
+    border-radius: 5px;
+    margin-left: 450px;
+    padding: 15px 50px;
+    border: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.works_image {
+    cursor: pointer;
+}
