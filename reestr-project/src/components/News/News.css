@@ -86,6 +86,11 @@
     color: #FFFFFF;
     cursor:pointer;
     margin-top:20px;
+    transition: 0.4s;
+}
+
+.work_btn:hover{
+    background-color: #017284;
 }
 
 .works_image {

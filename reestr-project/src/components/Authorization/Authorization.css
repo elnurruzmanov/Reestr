@@ -1,0 +1,117 @@
+.Authorization .container {
+    padding: 40px;
+}
+
+.Authorization_links {
+    display: flex;
+    align-items: center;
+}
+
+.Authorization_links p {
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #676A71;
+    margin-left: 15px;
+
+}
+
+.Authorization_forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.Authorization_input {
+    background: #F6F6F9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 300px;
+}
+
+.label p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #676A71;
+}
+
+.Authorization_input {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C6C6C6;
+}
+
+.Authorization_email {
+    color: red;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.Authorization_btn {
+    background-color: #009CB4;
+    border-radius: 5px;
+    width: 340px;
+    padding: 10px 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    margin-top: 20px;
+}
+
+.Authorization_submit {
+    color: #fff;
+    background-color: #009CB4;
+    border: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.checkbox_check {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    border:none;
+    background-color: #009CB4;
+    border-radius:5px;
+}
+
+.checkbox_text {
+    margin-left: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A8AAAE;
+}

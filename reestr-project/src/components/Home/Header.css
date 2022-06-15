@@ -81,6 +81,11 @@
     letter-spacing: 0.01em;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.Header_btn:hover{
+    background: #038194;
 }
 
 

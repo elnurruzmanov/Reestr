@@ -1,5 +1,6 @@
 import React from "react";
 import "./News.css"
+
 import Works from "../../images/works.png";
 import Works2 from "../../images/works2.png";
 import Resume from "../../images/Resume.png";
@@ -18,7 +19,7 @@ const News = () => {
               <p className="works_time-text">Технические работы 30.05.2022</p>
               <div className="works_calendar">
                 <img src={Today_Calendar} alt="Calendar2" />
-                <a href="https://www.timeanddate.com/calendar/">30.05.2022</a>
+                <a href="/https://www.timeanddate.com/calendar/">30.05.2022</a>
               </div>
               <p className="works_text">
                 В связи с проведением технических работ 30.05.2022 с 15:00 могут

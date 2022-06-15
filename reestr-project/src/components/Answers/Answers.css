@@ -1,3 +1,11 @@
+.Answers{
+    background-color: #E5E5E5;
+}
+
+.Answers .container{
+    padding:50px;
+}
+
 .Answers_info h1 {
     font-family: 'Manrope';
     font-style: normal;
@@ -28,3 +36,12 @@
 .Answers_questions{
     width: 55%;
 }
+
+.answers-questions_text p{
+    margin-left:30px;
+}
+/* 
+.answer_btn{
+    border:none;
+    background-color: none;
+} */
