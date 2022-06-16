@@ -13,7 +13,7 @@ const Authorization = () => {
 // isValid
 
   const onSubmit= (data)=>{
-    alert(JSON.stringify(data))
+    (JSON.stringify(data))
     reset();
   }
 
@@ -92,6 +92,7 @@ const Authorization = () => {
               <button className="Authorization_btn">
                 <input className="Authorization_submit" type="submit" />
               </button>
+              
             </form>
           </div>
         </div>

@@ -4,6 +4,8 @@
 
 .Answers .container{
     padding:50px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .Answers_info h1 {
@@ -15,33 +17,40 @@
     color: #231F20;
 }
 
-.Answers  .container{
-    display: flex;
-    justify-content: space-between;
+.accordion{
+    width:700px;
 }
 
-.Answers_questions-info{
-    display: flex;
+ span{
+        margin-right:15px; 
+}
+
+.item{
+    margin-bottom:5px;
+    padding: 10px 20px;
+     cursor:pointer;
+     display:flex;
     align-items: center;
+    flex-direction: column;
+       transition: all ease 0.3s;
 }
 
-.Answer_questions-title{
-    margin-left:10px;
+.content{
+    color:#000;
+    max-height:0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1) ;
+    
 }
 
-.Answers_info{
-    width:45%;
+.show{
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0) ;
 }
 
-.Answers_questions{
-    width: 55%;
+.title{
+    display:flex;
+    align-items:center;
 }
 
-.answers-questions_text p{
-    margin-left:30px;
-}
-/* 
-.answer_btn{
-    border:none;
-    background-color: none;
-} */

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+// import { Routes, Route, Link } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Home/Header";
@@ -9,6 +9,7 @@ import Documents from "./components/Documents/Documents";
 import Answers from "./components/Answers/Answers";
 import Footer from "./components/Footer/Footer";
 import Authorization from "./components/Authorization/Authorization";
+import Sign_up from "./components/Save_information/Sign_up";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Answers />
       <Footer />
       <Authorization />
+      <Sign_up />
     </>
   );
 }

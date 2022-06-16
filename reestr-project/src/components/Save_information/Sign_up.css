@@ -1,0 +1,99 @@
+.Sign_up .container {
+    padding: 40px;
+}
+
+.Sign_up-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sign_up-title {
+    width: 30%;
+}
+
+.Sign_up-register {
+    width: 60%
+}
+
+.Person-link {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #009CB4;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.Sign_up-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+
+
+.links {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #676A71;
+    transition: 0.3s;
+}
+
+.links2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #E0371F;
+}
+
+.links:hover {
+    color: #555658;
+}
+
+.Sign_up-name {
+    display: flex;
+    align-items: center;
+}
+
+.Sign_up-name h1 {
+    margin-left: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #231F20;
+}
+
+.name2 {
+    margin-top: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4D4D4F;
+}
+
+.input {
+    width:25%;
+    background: #F6F6F9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A8AAAE;
+    padding:15px 20px;
+}
+
